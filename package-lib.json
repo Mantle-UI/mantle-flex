@@ -2,6 +2,19 @@
     "name": "@mantle-ui/flex",
     "version": "0.1.0",
     "description": "Responsive CSS utility library for Mantle UI.",
+    "style": "primeflex.css",
+    "sass": "primeflex.scss",
+    "files": [
+        "primeflex.css",
+        "primeflex.min.css",
+        "primeflex.scss",
+        "themes",
+        "README.md",
+        "LICENSE.md"
+    ],
+    "scripts": {
+        "build": "echo \"Mantle Flex is distributed as prebuilt CSS and Sass.\""
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Mantle-UI/mantle-flex.git"
