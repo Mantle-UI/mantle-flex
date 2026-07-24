@@ -1,16 +1,16 @@
 {
-    "name": "primeflex",
-    "version": "3.3.1",
-    "description": "PrimeFlex is a lightweight responsive CSS utility library to accompany Prime UI libraries and static webpages as well.",
+    "name": "@mantle-ui/flex",
+    "version": "0.1.0",
+    "description": "Responsive CSS utility library for Mantle UI.",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/primefaces/primeflex.git"
+        "url": "git+https://github.com/Mantle-UI/mantle-flex.git"
     },
     "keywords": ["grid", "responsive", "flex", "css utility"],
-    "author": "PrimeTek",
+    "author": "Mantle UI contributors",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/primefaces/primeflex/issues"
+        "url": "https://github.com/Mantle-UI/mantle-flex/issues"
     },
-    "homepage": "https://primeflex.org"
+    "homepage": "https://github.com/Mantle-UI/mantle-flex#readme"
 }

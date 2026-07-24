@@ -1,1 +1,19 @@
-Visit [https://primeflex.org](PrimeFlex) website for demos and documentation.
+# Mantle Flex
+
+Mantle Flex is a responsive CSS utility library for Mantle UI and static web projects.
+
+## Status
+
+This repository begins as a compatibility continuation of PrimeFlex 3.3.1, the latest 3.x release. Existing utility class names are intentionally preserved for a low-friction migration path.
+
+## Install
+
+```bash
+npm install @mantle-ui/flex
+```
+
+## Provenance and license
+
+The initial source and full Git history were imported from the MIT-licensed PrimeFlex 3.3.1 release. The original MIT license is preserved in [LICENSE.md](LICENSE.md).
+
+Mantle Flex is an independent community-maintained project and is not affiliated with PrimeTek or Prime UI.
