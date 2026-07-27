@@ -9,7 +9,7 @@ latest Mantle release tag:
 - linked issue type `feature`: minor
 - linked issue type `bug`: patch
 
-Mantle Flex continues from the upstream `v3.3.1` tag. The first automated
+Mantle Flex continues from the upstream `3.3.1` tag. The first automated
 Mantle release therefore calculates the next version from changes merged after
 that tag.
 
