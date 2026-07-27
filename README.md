@@ -17,6 +17,16 @@ This repository begins as a compatibility continuation of PrimeFlex 3.3.1, the l
 npm install @mantle-ui/flex
 ```
 
+## Funding
+
+Mantle Flex is developed and maintained by the community.
+
+Financial support helps fund ongoing development, maintenance, documentation, infrastructure, contributor work, and community initiatives.
+
+You can support the project through [Open Collective](https://opencollective.com/mantle-ui). Mantle UI is fiscally hosted by the [Open Source Collective](https://oscollective.org/).
+
+See [FUNDING.MD](FUNDING.MD) for details about funding, expenses, transparency, and sponsored development.
+
 ## Provenance and license
 
 The initial source and full Git history were imported from the MIT-licensed PrimeFlex 3.3.1 release. The original MIT license is preserved in [LICENSE.md](LICENSE.md).
