@@ -6,6 +6,8 @@
     "scripts": {
         "dev": "next dev",
         "build": "npm run build:lib",
+        "build:docs": "next build",
+        "build:docs:pages": "node scripts/build-docs-pages.js",
         "start": "next start",
         "format": "prettier --write \"{components,pages}/**/*.js\"",
         "format:check": "prettier --check \"{components,pages}/**/*.js\"",
