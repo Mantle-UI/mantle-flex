@@ -2,7 +2,7 @@
     "name": "@mantle-ui/flex-workspace",
     "version": "3.4.0",
     "description": "Build workspace for Mantle Flex.",
-    "private": true,
+    "private": false,
     "scripts": {
         "dev": "next dev",
         "build": "npm run build:lib",
