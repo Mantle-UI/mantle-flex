@@ -9,9 +9,9 @@ latest Mantle release tag:
 - linked issue type `feature`: minor
 - linked issue type `bug`: patch
 
-Mantle Flex continues from the upstream `3.3.1` tag. The first automated
-Mantle release therefore calculates the next version from changes merged after
-that tag.
+Mantle Flex continues from the upstream `3.3.1` tag and starts Mantle releases
+at `3.4.0`. Run the first release with `initial_release` enabled. Later releases
+calculate the next version from merged changes after the `v3.4.0` Mantle tag.
 
 Before the first release, configure:
 
