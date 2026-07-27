@@ -1,5 +1,8 @@
 # Mantle Flex
 
+[![npm](https://img.shields.io/npm/v/@mantle-ui/flex?label=%40mantle-ui%2Fflex&logo=npm)](https://www.npmjs.com/package/@mantle-ui/flex)
+[![npm downloads](https://img.shields.io/npm/dm/@mantle-ui/flex)](https://www.npmjs.com/package/@mantle-ui/flex)
+[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE.md)
 [![Discord Chat](https://img.shields.io/discord/1524174660386820177?label=Discord&logo=discord)](https://discord.gg/BGs6EkpnDv)
 
 Mantle Flex is a responsive CSS utility library for Mantle UI and static web projects.
