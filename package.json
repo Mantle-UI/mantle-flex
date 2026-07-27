@@ -1,6 +1,6 @@
 {
     "name": "@mantle-ui/flex-workspace",
-    "version": "0.1.0",
+    "version": "3.4.0",
     "description": "Build workspace for Mantle Flex.",
     "private": true,
     "scripts": {
