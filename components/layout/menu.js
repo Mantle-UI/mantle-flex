@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { StyleClass } from 'primereact/styleclass';
-import { classNames } from 'primereact/utils';
+import { StyleClass } from '@mantle-ui/react/styleclass';
+import { classNames } from '@mantle-ui/react/utils';
 import React, { memo, useEffect, useState } from 'react';
 import MenuData from './menu.json';
 

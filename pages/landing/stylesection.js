@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { classNames } from 'primereact/utils';
+import { classNames } from '@mantle-ui/react/utils';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
 const StyleSection = () => {

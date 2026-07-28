@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Slider } from 'primereact/slider';
+import { Slider } from '@mantle-ui/react/slider';
 import { useEffect, useState } from 'react';
 
 const CardsSection = () => {

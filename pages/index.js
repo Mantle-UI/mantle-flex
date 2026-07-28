@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { classNames } from 'primereact/utils';
+import { classNames } from '@mantle-ui/react/utils';
 import NewsSection from '../components/news/newssection';
 import FooterSection from './landing/footersection';
 import HeaderSection from './landing/headersection';
