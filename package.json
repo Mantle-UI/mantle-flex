@@ -23,7 +23,7 @@
         "@docsearch/react": "^3.3.3",
         "@mantle-ui/icons": "^7.1.0",
         "next": "13.2.1",
-        "primereact": "^9.2.0",
+        "@mantle-ui/react": "^10.10.7",
         "react": "18.2.0",
         "react-dom": "18.2.0"
     },

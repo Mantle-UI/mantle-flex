@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { classNames } from 'primereact/utils';
+import { classNames } from '@mantle-ui/react/utils';
 import { DocSectionNav } from './docsectionnav';
 import { DocSections } from './docsections';
 

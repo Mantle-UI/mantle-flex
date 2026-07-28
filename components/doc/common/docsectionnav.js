@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { useEventListener } from 'primereact/hooks';
-import { DomHandler, ObjectUtils, classNames } from 'primereact/utils';
+import { useEventListener } from '@mantle-ui/react/hooks';
+import { DomHandler, ObjectUtils, classNames } from '@mantle-ui/react/utils';
 import React, { useEffect, useRef, useState } from 'react';
 
 export function DocSectionNav({ docs = [] }) {

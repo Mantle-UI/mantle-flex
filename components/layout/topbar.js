@@ -1,5 +1,5 @@
 import { DocSearch } from '@docsearch/react';
-import { classNames } from 'primereact/utils';
+import { classNames } from '@mantle-ui/react/utils';
 import { useEffect, useRef } from 'react';
 
 export default function Topbar(props) {

@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import { useEventListener } from 'primereact/hooks';
-import { DomHandler } from 'primereact/utils';
+import { useEventListener } from '@mantle-ui/react/hooks';
+import { DomHandler } from '@mantle-ui/react/utils';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
 const ResponsiveSection = ({ dark }) => {

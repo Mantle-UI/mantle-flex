@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import { classNames } from 'primereact/utils';
+import { classNames } from '@mantle-ui/react/utils';
 import { useEffect, useState } from 'react';
 import NewsSection from '../news/newssection';
 import AppContentContext from './appcontentcontext';

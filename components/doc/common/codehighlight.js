@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { classNames } from 'primereact/utils';
+import { classNames } from '@mantle-ui/react/utils';
 
 export function CodeHighlight(props) {
     const codeElement = useRef();
