@@ -17,6 +17,10 @@ This repository begins as a compatibility continuation of PrimeFlex 3.3.1, the l
 npm install @mantle-ui/flex
 ```
 
+## Showcase
+
+Visit [Mantle Flex](mantle-ui.github.io/mantle-flex/) website for demos and documentation.
+
 ## Funding
 
 Mantle Flex is developed and maintained by the community.
