@@ -28,8 +28,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Flex Grow - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Flex Grow controls how much a flexible item grows." />
+                <title>Flex Grow - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Flex Grow controls how much a flexible item grows." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

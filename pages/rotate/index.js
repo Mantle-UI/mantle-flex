@@ -29,8 +29,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Rotate - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Rotate rotates an element based on a given degree." />
+                <title>Rotate - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Rotate rotates an element based on a given degree." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

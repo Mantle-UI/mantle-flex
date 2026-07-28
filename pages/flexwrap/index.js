@@ -40,8 +40,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Flex Wrap - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Flex Wrap sets the direction of flexible items." />
+                <title>Flex Wrap - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Flex Wrap sets the direction of flexible items." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

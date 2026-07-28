@@ -5,6 +5,25 @@ import { classNames } from 'primereact/utils';
 import React, { memo, useEffect, useState } from 'react';
 import MenuData from './menu.json';
 
+const menuIcons = {
+    'Getting Started': 'pi-book',
+    Theming: 'pi-palette',
+    Discover: 'pi-compass',
+    Layout: 'pi-th-large',
+    Flexbox: 'pi-arrows-h',
+    Grid: 'pi-table',
+    Background: 'pi-image',
+    Border: 'pi-stop',
+    Spacing: 'pi-arrows-alt',
+    Sizing: 'pi-expand',
+    Typography: 'pi-book',
+    Effects: 'pi-sparkles',
+    Transition: 'pi-sync',
+    Animation: 'pi-play',
+    Transforms: 'pi-directions-alt',
+    Interactivity: 'pi-sliders-h'
+};
+
 const Menu = memo((props) => {
     const router = useRouter();
     const [activeSubmenus, setActiveSubmenus] = useState([]);
@@ -43,15 +62,17 @@ const Menu = memo((props) => {
         scrollToActiveItem();
     }, [router.pathname]);
 
-    const renderLink = (item) => {
+    const renderIcon = (item) => {
+        const icon = menuIcons[item.name];
+
+        return icon ? <span className="menu-icon"><i className={`pi ${icon}`}></i></span> : null;
+    };
+
+    const renderLink = (item, root = false) => {
         const { name, to, href } = item;
         const content = (
             <>
-                {item.icon && (
-                    <span className="menu-icon">
-                        <img src={item.image + (props.darkTheme ? '.svg' : '-light.svg')} alt="icon"></img>
-                    </span>
-                )}
+                {root && renderIcon(item)}
                 {name}
             </>
         );
@@ -59,22 +80,12 @@ const Menu = memo((props) => {
         if (href) {
             return (
                 <a href={href} target="_blank" rel="noopener noreferrer">
-                    {item.image && (
-                        <span className="menu-icon">
-                            <img src={item.image + (props.darkTheme ? '.svg' : '-light.svg')} alt="icon"></img>
-                        </span>
-                    )}
                     <span>{content}</span>
                 </a>
             );
         } else if (to) {
             return (
                 <Link href={to} className={classNames({ 'router-link-active': to === router.pathname })}>
-                    {item.image && (
-                        <span className="menu-icon">
-                            <img src={item.image + (props.darkTheme ? '.svg' : '-light.svg')} alt="icon"></img>
-                        </span>
-                    )}
                     {content}
                 </Link>
             );
@@ -122,9 +133,7 @@ const Menu = memo((props) => {
         return (
             <StyleClass nodeRef={btnRef} selector="@next" enterClassName="hidden" enterActiveClassName="slidedown" leaveToClassName="hidden" leaveActiveClassName="slideup">
                 <button ref={btnRef} type="button" className={classNames('link-button', { 'active-menuitem': isActive(menuitem) })} onClick={() => onMenuItemButtonClick(menuitem)}>
-                    <span className="menu-icon">
-                        <img src={menuitem.image + (props.darkTheme ? '.svg' : '-light.svg')} alt="Item Icon"></img>
-                    </span>
+                    {renderIcon(menuitem)}
                     <span>{menuitem.name}</span>
                     <i className="menu-toggle-icon pi pi-angle-down"></i>
                 </button>
@@ -137,7 +146,7 @@ const Menu = memo((props) => {
             <>
                 {MenuData.data &&
                     MenuData.data.map((menuitem, index) => {
-                        const label = menuitem.children ? renderRootItemButton(menuitem, index) : renderLink(menuitem);
+                        const label = menuitem.children ? renderRootItemButton(menuitem, index) : renderLink(menuitem, true);
                         const children = renderRootMenuItemChildren(menuitem, index);
 
                         return (
@@ -156,8 +165,8 @@ const Menu = memo((props) => {
 
     return (
         <aside className={sidebarClassName}>
-            <Link href="/" className="logo" aria-label="PrimeReact logo">
-                <img id="topbar-logo" src="https://www.primefaces.org/cdn/primeflex/images/PrimeFlexLogo.svg" alt="prime"></img>
+            <Link href="/" className="logo mantle-logo" aria-label="Mantle Flex home">
+                Mantle <strong>Flex</strong>
             </Link>
             <nav>
                 <ol className="layout-menu">{menuItems}</ol>

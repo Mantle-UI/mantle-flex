@@ -58,8 +58,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Align Self - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Align Self defines the alignment for a particular element on the cross axis." />
+                <title>Align Self - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Align Self defines the alignment for a particular element on the cross axis." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

@@ -28,8 +28,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Min Height - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Min Height defines the minimum height of an element." />
+                <title>Min Height - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Min Height defines the minimum height of an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

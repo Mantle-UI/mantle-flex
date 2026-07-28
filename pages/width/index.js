@@ -40,8 +40,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Width - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Width defines the width of an element." />
+                <title>Width - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Width defines the width of an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

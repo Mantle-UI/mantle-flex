@@ -40,8 +40,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Background Size - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Background Size defines the size of a background image." />
+                <title>Background Size - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Background Size defines the size of a background image." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

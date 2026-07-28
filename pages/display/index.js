@@ -58,8 +58,8 @@ const DisplayPage = () => {
     return (
         <div>
             <Head>
-                <title>Display - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Display defines how an element is displayed on a page." />
+                <title>Display - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Display defines how an element is displayed on a page." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

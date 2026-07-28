@@ -22,8 +22,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Animation Delay - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Animation Delay defines the delay for the start a animation." />
+                <title>Animation Delay - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Animation Delay defines the delay for the start a animation." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

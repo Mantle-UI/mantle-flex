@@ -58,8 +58,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Justify Content - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Justify Content defines the alignment on the main axis." />
+                <title>Justify Content - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Justify Content defines the alignment on the main axis." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

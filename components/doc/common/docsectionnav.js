@@ -78,8 +78,8 @@ export function DocSectionNav({ docs = [] }) {
     }, [bindDocumentScrollListener, docs]);
 
     const createItem = ({ id, label, children }, level = 0) => {
-        const { basePath, pathname } = router;
-        const href = `${basePath}${pathname}#${id}`;
+        const { pathname } = router;
+        const href = `${pathname}#${id}`;
 
         return (
             <li key={id} className={classNames('navbar-item', { 'active-navbar-item': activeId === id })}>

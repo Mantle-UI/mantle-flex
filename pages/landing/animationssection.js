@@ -137,7 +137,7 @@ const AnimationsSection = ({ dark }) => {
                 <div className="landing-animations-content flex flex-column justify-content-center align-items-center text-center z-5 relative gap-5">
                     <h1 className="landing-title font-bold m-0 text-6xl md:text-7xl">Animation</h1>
                     <h3 className="landing-subtitle m-0 text-xl md:text-2xl font-normal text-center">
-                        Bring your design to life with PrimeFlex's effortless animation classes. Implement dynamic, engaging visuals with ease, adding an extra layer of interactivity to your creations.
+                        Bring your design to life with Mantle Flex's effortless animation classes. Implement dynamic, engaging visuals with ease, adding an extra layer of interactivity to your creations.
                     </h3>
                     <Link href="/installation" className="linkbox-button active w-9rem fadeinleft animation-duration-2000 animation-ease-out ">
                         Learn more

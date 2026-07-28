@@ -5,7 +5,7 @@ export function VariablesDoc(props) {
         <>
             <DocSectionText {...props}>
                 <p>
-                    SASS variables are available to customize and create your own primeflex build. To begin with clone the <a href="https://github.com/primefaces/primeflex">primeflex repo</a> and then build the primeflex.scss file after your
+                    SASS variables are available to customize and create your own Mantle Flex build. Start with the <a href="https://github.com/Mantle-UI/mantle-flex">Mantle Flex repository</a> and then build the primeflex.scss file after your
                     customizations. Refer to <a href="https://sass-lang.com/install">Sass</a> documentation for more information about how to build scss files.
                 </p>
             </DocSectionText>

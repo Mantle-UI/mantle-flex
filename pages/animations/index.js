@@ -154,8 +154,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Animations - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Animations a variety of animations are available to be used when an element enters or leaves." />
+                <title>Animations - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Animations a variety of animations are available to be used when an element enters or leaves." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

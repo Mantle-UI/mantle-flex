@@ -112,7 +112,7 @@ const ResponsiveSection = ({ dark }) => {
                         Adaptive <br></br>for Every Screen
                     </h1>
                     <h3 className="landing-subtitle m-0 text-xl md:text-2xl font-normal text-center">
-                        PrimeFlex guarantees optimal adaptability. Enjoy seamless display and functionality on every screen size, ensuring universal access to your projects.
+                        Mantle Flex guarantees optimal adaptability. Enjoy seamless display and functionality on every screen size, ensuring universal access to your projects.
                     </h3>
 
                     <Link href="/installation" className="linkbox-button active w-9rem fadeinleft animation-duration-2000 animation-ease-out">

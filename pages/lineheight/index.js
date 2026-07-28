@@ -22,8 +22,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Line Height - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Line Height defines the line height of the text inside an element." />
+                <title>Line Height - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Line Height defines the line height of the text inside an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

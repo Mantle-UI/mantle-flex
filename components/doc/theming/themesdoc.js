@@ -163,7 +163,7 @@ export function ThemesDoc(props) {
         <>
             <DocSectionText {...props}>
                 <p>
-                    PrimeFlex theme is a set of CSS variables used by the utilities such as <i>background</i> or <i>text</i> classes. Following is the list of variables from the light theme.
+                    Mantle Flex theme is a set of CSS variables used by the utilities such as <i>background</i> or <i>text</i> classes. Following is the list of variables from the light theme.
                 </p>
             </DocSectionText>
             <DocSectionCode code={code} style={{ maxHeight: '500px' }} />

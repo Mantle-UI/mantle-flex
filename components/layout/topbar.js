@@ -1,18 +1,9 @@
 import { DocSearch } from '@docsearch/react';
 import { classNames } from 'primereact/utils';
 import { useEffect, useRef } from 'react';
-import pkg from '../../package.json';
 
 export default function Topbar(props) {
     const colorSchemeIcon = classNames('pi', { 'pi-sun': props.dark, 'pi-moon': !props.dark });
-    const versionsRef = useRef(null);
-    const versions = [
-        {
-            name: `v${pkg.version.split('.')[0]}`,
-            version: pkg.version,
-            url: 'https://www.primereact.org'
-        }
-    ];
 
     const onMenuButtonClick = () => {
         props.onMenuButtonClick();
@@ -20,6 +11,24 @@ export default function Topbar(props) {
 
     const changeColorScheme = () => {
         props.onToggleColorScheme();
+    };
+
+    const handleDocSearchTransformItems = (items) => {
+        const isLocalhost = process.env.NODE_ENV !== 'production';
+
+        return items.map((item) => {
+            if (isLocalhost) {
+                const url = new URL(item.url);
+
+                url.protocol = window.location.protocol;
+                url.hostname = window.location.hostname;
+                url.port = window.location.port;
+                url.pathname = url.pathname.replace(/^\/mantle-flex(?=\/|$)/, '') || '/';
+                item.url = url.toString();
+            }
+
+            return item;
+        });
     };
 
     const containerElement = useRef(null);
@@ -57,9 +66,18 @@ export default function Topbar(props) {
                 <button type="button" className="link-button menu-button" onClick={onMenuButtonClick} aria-haspopup aria-label="Menu" style={{ borderColor: 'var(--menu-border-color)' }}>
                     <i className="pi pi-bars"></i>
                 </button>
-                <DocSearch appId="TLMMWZFW0F" apiKey="e6191f9edfded2e69492f3f3b315e237" indexName="primeflex" container="" debug={false} />
+                <span className="font-bold text-xl text-900">Mantle Flex</span>
 
                 <ul className="flex list-none m-0 p-0 gap-2 align-items-center ml-2">
+                    <li>
+                        <DocSearch
+                            appId="473OAGLWFO"
+                            apiKey="b4dc5205df58e30da26b455573a41c24"
+                            indexName="Mantle Flex Docs"
+                            debug={false}
+                            transformItems={handleDocSearchTransformItems}
+                        />
+                    </li>
                     <li>
                         <a
                             className="flex link-button border-1 border-solid w-2rem h-2rem  border-round surface-card align-items-center justify-content-center transition-all transition-duration-300 hover:border-primary"
@@ -71,7 +89,7 @@ export default function Topbar(props) {
                     </li>
                     <li>
                         <a
-                            href="https://github.com/primefaces/primeflex"
+                            href="https://github.com/Mantle-UI/mantle-flex"
                             className="flex link-button border-1 border-solid w-2rem h-2rem border-round surface-card align-items-center justify-content-center transition-all transition-duration-300 hover:border-primary"
                             style={{ borderColor: 'var(--menu-border-color)' }}
                         >
@@ -80,41 +98,13 @@ export default function Topbar(props) {
                     </li>
                     <li>
                         <a
-                            href="https://discord.gg/gzKFYnpmCY"
+                            href="https://discord.gg/BGs6EkpnDv"
                             className="flex link-button border-1 border-solid w-2rem h-2rem  border-round surface-card align-items-center justify-content-center transition-all transition-duration-300 hover:border-primary"
                             style={{ borderColor: 'var(--menu-border-color)' }}
                         >
                             <i className="pi pi-discord text-700"></i>
                         </a>
                     </li>
-
-                    {/* <li className="relative">
-                        <StyleClass nodeRef={versionsRef} selector="@next" enterClassName="hidden" enterActiveClassName="scalein" leaveToClassName="hidden" leaveActiveClassName="fadeout" hideOnOutsideClick>
-                            <button
-                                ref={versionsRef}
-                                type="button"
-                                className="link-button flex align-items-center surface-card h-2rem px-3 hover:surface-hover border-1 border-solid transition-all transition-duration-300 hover:border-primary"
-                                style={{ borderColor: 'var(--menu-border-color)' }}
-                            >
-                                <span className="text-900">{versions && versions.length ? versions[0].version : ''}</span>
-                                <span className="ml-2 pi pi-angle-down text-600"></span>
-                            </button>
-                        </StyleClass>
-                        <div className="p-3 surface-overlay hidden absolute right-0 top-auto border-round shadow-2 origin-top w-12rem">
-                            <ul className="list-none m-0 p-0">
-                                {versions.map((version) => {
-                                    return (
-                                        <li role="none" key={version.version}>
-                                            <a href={version.url} className="block p-2 border-round hover:surface-hover w-full">
-                                                <span className="font-bold text-900">{version.name}</span>
-                                                <span className="ml-2 text-700">({version.version})</span>
-                                            </a>
-                                        </li>
-                                    );
-                                })}
-                            </ul>
-                        </div>
-                    </li> */}
                 </ul>
             </div>
         </div>

@@ -22,8 +22,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Outline - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Outline defines the style to display when an element receives focus." />
+                <title>Outline - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Outline defines the style to display when an element receives focus." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

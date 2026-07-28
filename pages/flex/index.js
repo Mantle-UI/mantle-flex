@@ -46,8 +46,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Flex - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Flex A shorthand property to define flex-grow, flex-shrink and flex-basis at once." />
+                <title>Flex - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Flex A shorthand property to define flex-grow, flex-shrink and flex-basis at once." />
             </Head>
             <div className="doc">
                 <div className="doc-main">
