@@ -1,5 +1,23 @@
 # Changelog
 
+## [3.4.1](https://github.com/Mantle-UI/mantle-flex/compare/v3.4.0...v3.4.1) (2026-07-28)
+
+[Full Changelog](https://github.com/Mantle-UI/mantle-flex/compare/v3.4.0...v3.4.1)
+
+## Bug Fixes
+
+- Fix #84 link format in README for Mantle Flex [#85](https://github.com/Mantle-UI/mantle-flex/pull/85) (issues: #84)
+## Other Changes
+
+- docs: rebrand Flex documentation shell [#7](https://github.com/Mantle-UI/mantle-flex/pull/7)
+- docs: add Flex Algolia search [#8](https://github.com/Mantle-UI/mantle-flex/pull/8)
+- fix: normalize Flex crawler search records [#9](https://github.com/Mantle-UI/mantle-flex/pull/9)
+- Add PrimeFlex issue migration workflow [#10](https://github.com/Mantle-UI/mantle-flex/pull/10)
+- docs: migrate Flex documentation to Mantle UI [#80](https://github.com/Mantle-UI/mantle-flex/pull/80)
+- Fix #55 Add Showcase section to README [#81](https://github.com/Mantle-UI/mantle-flex/pull/81) (issues: #55)
+- Fix #44: Prefer reduced motion for animations and transitions [#82](https://github.com/Mantle-UI/mantle-flex/pull/82) (issues: #44)
+- chore: remove initial release option [#86](https://github.com/Mantle-UI/mantle-flex/pull/86)
+
 ## [3.3.1](https://github.com/primefaces/primeflex/tree/3.3.0) (2023-05-31)
 
 [Full Changelog](https://github.com/primefaces/primeflex/compare/3.3.0...3.3.1)

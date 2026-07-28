@@ -1,6 +1,6 @@
 {
     "name": "@mantle-ui/flex",
-    "version": "3.4.0",
+    "version": "3.4.1",
     "description": "MantleUI Flex is a CSS utility library featuring various helpers such as a grid system, flexbox, spacing, elevation and more.",
     "private": false,
     "scripts": {
