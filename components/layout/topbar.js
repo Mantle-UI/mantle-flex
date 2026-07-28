@@ -70,7 +70,13 @@ export default function Topbar(props) {
 
                 <ul className="flex list-none m-0 p-0 gap-2 align-items-center ml-2">
                     <li>
-                        <DocSearch appId="473OAGLWFO" apiKey="b4dc5205df58e30da26b455573a41c24" indexName="mantle_flex_docs_pages" debug={false} transformItems={handleDocSearchTransformItems} />
+                        <DocSearch
+                            appId="473OAGLWFO"
+                            apiKey="b4dc5205df58e30da26b455573a41c24"
+                            indexName="Mantle Flex Docs"
+                            debug={false}
+                            transformItems={handleDocSearchTransformItems}
+                        />
                     </li>
                     <li>
                         <a
