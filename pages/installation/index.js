@@ -52,14 +52,14 @@ const InstallationPage = () => {
     return (
         <div>
             <Head>
-                <title>Getting Started - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex is a lightweight responsive CSS utility library to accompany Prime UI libraries and static webpages as well." />
+                <title>Getting Started - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex is a lightweight responsive CSS utility library to accompany Prime UI libraries and static webpages as well." />
             </Head>
             <div className="doc">
                 <div className="doc-main">
                     <div className="doc-intro">
                         <h1>Installation</h1>
-                        <p>PrimeFlex is a CSS utility library featuring various helpers such as a grid system, flexbox, spacing, elevation and more.</p>
+                        <p>Mantle Flex is a CSS utility library featuring various helpers such as a grid system, flexbox, spacing, elevation and more.</p>
                     </div>
                     <DocSections docs={docs} />
                 </div>

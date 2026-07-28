@@ -58,8 +58,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Background Repeat - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Background Repeat controls how a background image is repeated." />
+                <title>Background Repeat - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Background Repeat controls how a background image is repeated." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

@@ -5,11 +5,7 @@ export function VSCodeExtensionDoc(props) {
         <>
             <DocSectionText {...props}>
                 <p>
-                    The official PrimeFlex extension for{' '}
-                    <a href="https://marketplace.visualstudio.com/items?itemName=yigitfindikli.primeflexsnippets" target="_blank">
-                        VSCode
-                    </a>{' '}
-                    provides code completion and snippets support for the classes. Search for "PrimeFlex" at VSCode marketplace to download and install the extension.
+                    Community editor extensions may provide code completion and snippets for Mantle Flex utility classes. Check your editor marketplace for Mantle Flex support.
                 </p>
             </DocSectionText>
         </>

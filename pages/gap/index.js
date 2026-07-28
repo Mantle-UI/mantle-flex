@@ -28,8 +28,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Gap - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Gap defines the size of the gap between the rows and columns. It is a shorthand for column-gap and row-gap." />
+                <title>Gap - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Gap defines the size of the gap between the rows and columns. It is a shorthand for column-gap and row-gap." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

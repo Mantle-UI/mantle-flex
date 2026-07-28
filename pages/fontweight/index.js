@@ -28,8 +28,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Font Weight - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Font Weight specifies the font weight of an element." />
+                <title>Font Weight - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Font Weight specifies the font weight of an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

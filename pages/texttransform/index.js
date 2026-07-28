@@ -22,8 +22,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Text Transform - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Text Transform defines the transformation of a text inside an element." />
+                <title>Text Transform - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Text Transform defines the transformation of a text inside an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

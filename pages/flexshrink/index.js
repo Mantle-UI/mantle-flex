@@ -28,8 +28,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Flex Shrink - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Flex Shrink controls how much a flexible item shrinks." />
+                <title>Flex Shrink - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Flex Shrink controls how much a flexible item shrinks." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

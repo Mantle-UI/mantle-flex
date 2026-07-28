@@ -22,8 +22,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Font Style - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Font Style specifies the font style of an element." />
+                <title>Font Style - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Font Style specifies the font style of an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

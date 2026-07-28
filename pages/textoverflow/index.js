@@ -28,8 +28,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Text Overflow - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Text Overflow defines how the overflowed content gets displayed." />
+                <title>Text Overflow - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Text Overflow defines how the overflowed content gets displayed." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

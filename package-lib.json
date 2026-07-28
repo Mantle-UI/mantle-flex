@@ -2,12 +2,15 @@
     "name": "@mantle-ui/flex",
     "version": "3.4.0",
     "description": "Responsive CSS utility library for Mantle UI.",
-    "style": "primeflex.css",
-    "sass": "primeflex.scss",
+    "style": "mantleflex.css",
+    "sass": "mantleflex.scss",
     "files": [
         "primeflex.css",
         "primeflex.min.css",
         "primeflex.scss",
+        "mantleflex.css",
+        "mantleflex.min.css",
+        "mantleflex.scss",
         "themes",
         "README.md",
         "LICENSE.md"

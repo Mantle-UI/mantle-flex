@@ -28,8 +28,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Border Style - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Border Style controls the style of a border." />
+                <title>Border Style - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Border Style controls the style of a border." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

@@ -22,8 +22,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>List Style Type - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex List Style Type defines the style of a list item element." />
+                <title>List Style Type - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex List Style Type defines the style of a list item element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

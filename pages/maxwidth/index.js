@@ -28,8 +28,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Max Width - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Max Width defines the maximum width of an element." />
+                <title>Max Width - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Max Width defines the maximum width of an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

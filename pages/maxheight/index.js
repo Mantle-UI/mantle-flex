@@ -28,8 +28,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Max Height - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Max Height defines the maximum height of an element." />
+                <title>Max Height - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Max Height defines the maximum height of an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

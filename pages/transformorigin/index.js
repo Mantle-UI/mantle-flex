@@ -29,8 +29,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Transform Origin - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Transform Origin defines the position of a transformed element." />
+                <title>Transform Origin - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Transform Origin defines the position of a transformed element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

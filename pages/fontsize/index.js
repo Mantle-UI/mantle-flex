@@ -28,8 +28,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Font Size - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Font Size defines the font size of an element." />
+                <title>Font Size - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Font Size defines the font size of an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

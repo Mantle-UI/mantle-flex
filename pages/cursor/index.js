@@ -22,8 +22,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Cursor - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Cursor specifies the mouse cursor when pointer is over an element." />
+                <title>Cursor - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Cursor specifies the mouse cursor when pointer is over an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

@@ -29,15 +29,15 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Theming - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Theming" />
+                <title>Theming - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Theming" />
             </Head>
             <div className="doc">
                 <div className="doc-main">
                     <div className="doc-intro">
                         <h1>Theming</h1>
                         <p>
-                            Theme file is only required when using as standalone without a Prime UI library since PrimeFlex has exclusive integration with <a href="https://www.primefaces.org/showcase">PrimeFaces</a>,{' '}
+                            Theme file is only required when using as standalone without a Prime UI library since Mantle Flex has exclusive integration with <a href="https://www.primefaces.org/showcase">PrimeFaces</a>,{' '}
                             <a href="https://www.primefaces.org/primeng">PrimeNG</a>, <a href="https://www.primefaces.org/primereact">PrimeReact</a> and <a href="https://www.primefaces.org/primevue">PrimeVue</a>.
                         </p>
                     </div>

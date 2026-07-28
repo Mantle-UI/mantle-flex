@@ -3,18 +3,18 @@ import { DocSectionText } from '../common/docsectiontext';
 
 export function ModuleLoaderDoc(props) {
     const code1 = `
-npm install primeflex
+npm install @mantle-ui/flex
                 `;
 
     const code2 = `
-/node_modules/primeflex/primeflex.css
+/node_modules/@mantle-ui/flex/mantleflex.css
             `;
 
     return (
         <>
             <DocSectionText {...props}>
                 <p>
-                    PrimeFlex is available for download at <a href="https://www.npmjs.com/package/primeflex">NPM</a> for usage with a module bundler such as webpack.
+                    Mantle Flex is available at <a href="https://www.npmjs.com/package/@mantle-ui/flex">NPM</a> for usage with a module bundler such as webpack.
                 </p>
             </DocSectionText>
             <DocSectionCode code={code1} import />

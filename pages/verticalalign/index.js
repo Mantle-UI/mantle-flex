@@ -28,8 +28,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Vertical Align - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Vertical Align sets vertical alignment of an inline, inline-block or table-cell box." />
+                <title>Vertical Align - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Vertical Align sets vertical alignment of an inline, inline-block or table-cell box." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

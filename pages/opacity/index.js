@@ -22,8 +22,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Opacity - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Opacity sets the opacity of an element.." />
+                <title>Opacity - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Opacity sets the opacity of an element.." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

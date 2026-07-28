@@ -34,8 +34,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Elevation - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Elevation specifies the box-shadow of an element." />
+                <title>Elevation - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Elevation specifies the box-shadow of an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

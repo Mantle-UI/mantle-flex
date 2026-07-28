@@ -22,8 +22,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Transition Timing Function - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Transition Timing Function specifies the speed curve of a transition." />
+                <title>Transition Timing Function - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Transition Timing Function specifies the speed curve of a transition." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

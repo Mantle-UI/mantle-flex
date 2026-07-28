@@ -22,8 +22,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Animation Iteration - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Animation Iteration defines how many times an animation should run on an element." />
+                <title>Animation Iteration - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Animation Iteration defines how many times an animation should run on an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

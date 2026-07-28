@@ -22,8 +22,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>User Select - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex User Select controls whether the user can select text." />
+                <title>User Select - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex User Select controls whether the user can select text." />
             </Head>
             <div className="doc">
                 <div className="doc-main">
