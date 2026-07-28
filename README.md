@@ -19,7 +19,7 @@ npm install @mantle-ui/flex
 
 ## Showcase
 
-Visit [Mantle Flex](mantle-ui.github.io/mantle-flex/) website for demos and documentation.
+Visit [Mantle Flex](https://mantle-ui.github.io/mantle-flex/) website for demos and documentation.
 
 ## Funding
 
