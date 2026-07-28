@@ -1,0 +1,33 @@
+$reducedMotionDuration: 150ms !default;
+
+@media (prefers-reduced-motion: reduce) {
+    .#{$prefix}animation-duration-200,
+    .#{$prefix}animation-duration-300,
+    .#{$prefix}animation-duration-400,
+    .#{$prefix}animation-duration-500,
+    .#{$prefix}animation-duration-1000,
+    .#{$prefix}animation-duration-2000,
+    .#{$prefix}animation-duration-3000 {
+        animation-duration: $reducedMotionDuration !important;
+    }
+
+    .#{$prefix}transition-duration-200,
+    .#{$prefix}transition-duration-300,
+    .#{$prefix}transition-duration-400,
+    .#{$prefix}transition-duration-500,
+    .#{$prefix}transition-duration-1000,
+    .#{$prefix}transition-duration-2000,
+    .#{$prefix}transition-duration-3000 {
+        transition-duration: $reducedMotionDuration !important;
+    }
+
+    .#{$prefix}slidedown,
+    .#{$prefix}slideup,
+    .#{$prefix}animate-width {
+        animation-duration: $reducedMotionDuration !important;
+    }
+
+    .#{$prefix}animation-iteration-infinite {
+        animation-iteration-count: 1 !important;
+    }
+}

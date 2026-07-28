@@ -161,7 +161,11 @@ const PositionPage = () => {
                 <div className="doc-main">
                     <div className="doc-intro">
                         <h1>Animations</h1>
-                        <p>A variety of animations are available to be used when an element enters or leaves.</p>
+                        <p>
+                            A variety of animations are available to be used when an element enters or leaves. When{' '}
+                            <code>prefers-reduced-motion: reduce</code> is active, Mantle Flex caps animation durations at 150ms and forces
+                            infinite animations to run once.
+                        </p>
                     </div>
                     <DocSections docs={docs} />
                 </div>

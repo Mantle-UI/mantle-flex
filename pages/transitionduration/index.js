@@ -29,7 +29,10 @@ const PositionPage = () => {
                 <div className="doc-main">
                     <div className="doc-intro">
                         <h1>Transition Duration</h1>
-                        <p>Defines how long a transition should take to complete.</p>
+                        <p>
+                            Defines how long a transition should take to complete. Under{' '}
+                            <code>prefers-reduced-motion: reduce</code>, utilities above 150ms are capped at 150ms.
+                        </p>
                     </div>
                     <DocSections docs={docs} />
                 </div>
