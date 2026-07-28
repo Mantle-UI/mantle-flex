@@ -29,8 +29,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Background Position - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Background Position configures the starting position of a background image." />
+                <title>Background Position - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Background Position configures the starting position of a background image." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

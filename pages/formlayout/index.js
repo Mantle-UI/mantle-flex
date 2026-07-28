@@ -64,8 +64,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>FormLayout - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex FormLayout an extension to Grid System with fine tuning to create forms." />
+                <title>FormLayout - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex FormLayout an extension to Grid System with fine tuning to create forms." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

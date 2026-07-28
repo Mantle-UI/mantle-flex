@@ -40,8 +40,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Padding - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Padding specifies the space between the content and its border." />
+                <title>Padding - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Padding specifies the space between the content and its border." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

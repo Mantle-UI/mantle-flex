@@ -28,8 +28,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Z-Index - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Z-Index defines the stack order of an element." />
+                <title>Z-Index - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Z-Index defines the stack order of an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

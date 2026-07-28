@@ -34,8 +34,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Height - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Height defines the height of an element." />
+                <title>Height - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Height defines the height of an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

@@ -34,8 +34,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Border Width - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Width Radius specifies the border width of an element." />
+                <title>Border Width - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Width Radius specifies the border width of an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

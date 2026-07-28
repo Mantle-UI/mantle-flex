@@ -28,8 +28,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Text Decoration - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Text Decoration specifies the text decoration of the text inside an element." />
+                <title>Text Decoration - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Text Decoration specifies the text decoration of the text inside an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

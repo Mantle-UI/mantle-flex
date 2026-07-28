@@ -22,8 +22,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Whitespace - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Whitespace defines whether the word should wrap based on white space or not." />
+                <title>Whitespace - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Whitespace defines whether the word should wrap based on white space or not." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

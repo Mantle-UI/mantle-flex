@@ -28,8 +28,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Order - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Order controls the order of a flexible item relative to its container." />
+                <title>Order - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Order controls the order of a flexible item relative to its container." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

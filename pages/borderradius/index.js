@@ -34,8 +34,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Border Radius - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Border Radius defines the radius of an element's corners." />
+                <title>Border Radius - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Border Radius defines the radius of an element's corners." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

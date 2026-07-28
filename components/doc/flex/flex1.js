@@ -4,12 +4,12 @@ import { DocSectionText } from '../common/docsectiontext';
 export function Flex1Doc(props) {
     const code = `<div class="flex">
     <div class="flex align-items-center justify-content-center bg-primary font-bold m-2 px-5 py-3 border-round">Prime</div>
-    <div class="flex align-items-center justify-content-center bg-primary font-bold m-2 px-5 py-3 border-round">Prime and PrimeFlex</div>
+    <div class="flex align-items-center justify-content-center bg-primary font-bold m-2 px-5 py-3 border-round">Mantle UI and Mantle Flex</div>
     <div class="flex align-items-center justify-content-center bg-primary font-bold m-2 px-5 py-3 border-round">Lorem ipsum dolor sit amet</div>
 </div>
 <div class="flex">
     <div class="flex-1 flex align-items-center justify-content-center bg-primary font-bold m-2 px-5 py-3 border-round">Prime</div>
-    <div class="flex-1 flex align-items-center justify-content-center bg-primary font-bold m-2 px-5 py-3 border-round">Prime and PrimeFlex</div>
+    <div class="flex-1 flex align-items-center justify-content-center bg-primary font-bold m-2 px-5 py-3 border-round">Mantle UI and Mantle Flex</div>
     <div class="flex-1 flex align-items-center justify-content-center bg-primary font-bold m-2 px-5 py-3 border-round">Lorem ipsum dolor sit amet</div>
 </div>
 `;
@@ -22,12 +22,12 @@ export function Flex1Doc(props) {
             <div className="card">
                 <div className="flex">
                     <div className="flex flex align-items-center justify-content-center bg-primary font-bold m-2 px-5 py-3 border-round">Prime</div>
-                    <div className="flex flex align-items-center justify-content-center bg-primary font-bold m-2 px-5 py-3 border-round">Prime and PrimeFlex</div>
+                    <div className="flex flex align-items-center justify-content-center bg-primary font-bold m-2 px-5 py-3 border-round">Mantle UI and Mantle Flex</div>
                     <div className="flex flex align-items-center justify-content-center bg-primary font-bold m-2 px-5 py-3 border-round">Lorem ipsum dolor sit amet</div>
                 </div>
                 <div className="flex">
                     <div className="flex-1 flex align-items-center justify-content-center bg-primary font-bold m-2 px-5 py-3 border-round">Prime</div>
-                    <div className="flex-1 flex align-items-center justify-content-center bg-primary font-bold m-2 px-5 py-3 border-round">Prime and PrimeFlex</div>
+                    <div className="flex-1 flex align-items-center justify-content-center bg-primary font-bold m-2 px-5 py-3 border-round">Mantle UI and Mantle Flex</div>
                     <div className="flex-1 flex align-items-center justify-content-center bg-primary font-bold m-2 px-5 py-3 border-round">Lorem ipsum dolor sit amet</div>
                 </div>
             </div>

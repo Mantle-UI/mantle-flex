@@ -5,7 +5,7 @@ export function ProductionSizeDoc(props) {
         <>
             <DocSectionText {...props}>
                 <p>
-                    When using a utility CSS library like PrimeFlex, it is likely to use only a set of classes from the library leaving the rest of the library as unused. To avoid including the unused part from your application, it is strongly
+                    When using a utility CSS library like Mantle Flex, it is likely to use only a set of classes from the library leaving the rest of the library as unused. To avoid including the unused part from your application, it is strongly
                     recommended to use a tool like{' '}
                     <a href="https://purgecss.com/" target="_blank">
                         PurgeCSS

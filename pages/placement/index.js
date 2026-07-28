@@ -28,8 +28,8 @@ const PlacementPage = () => {
     return (
         <div>
             <Head>
-                <title>Top / Right / Bottom / Left - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Top / Right / Bottom / Left controls the vertical and horizontal position of a positioned element." />
+                <title>Top / Right / Bottom / Left - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Top / Right / Bottom / Left controls the vertical and horizontal position of a positioned element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

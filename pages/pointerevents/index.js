@@ -22,8 +22,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Pointer Events - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Pointer Events whether an elements reacts to pointer events or not." />
+                <title>Pointer Events - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Pointer Events whether an elements reacts to pointer events or not." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

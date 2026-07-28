@@ -34,8 +34,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Background Color - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Background Color choose from a variety of colors for the background of an element." />
+                <title>Background Color - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Background Color choose from a variety of colors for the background of an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

@@ -22,8 +22,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Animation Fill - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Animation Fill Function defines how an animation is executed on an element." />
+                <title>Animation Fill - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Animation Fill Function defines how an animation is executed on an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

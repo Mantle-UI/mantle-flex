@@ -22,8 +22,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Transition Property - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Transition Property specifies the properties to apply transition" />
+                <title>Transition Property - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Transition Property specifies the properties to apply transition" />
             </Head>
             <div className="doc">
                 <div className="doc-main">

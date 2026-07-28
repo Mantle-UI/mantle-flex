@@ -52,8 +52,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Align Items - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Align Items defines the size of the gap between the rows and columns. It is a shorthand for column-gap and row-gap." />
+                <title>Align Items - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Align Items defines the size of the gap between the rows and columns. It is a shorthand for column-gap and row-gap." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

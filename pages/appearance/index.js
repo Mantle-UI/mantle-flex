@@ -22,8 +22,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Appearance - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Appearance defines how an element is displayed natively by the platform." />
+                <title>Appearance - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Appearance defines how an element is displayed natively by the platform." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

@@ -1,17 +1,18 @@
 import '@docsearch/css';
+import '@mantle-ui/icons/primeicons.css';
 import { DomHandler } from 'primereact/utils';
 import { useEffect, useRef, useState } from 'react';
 import Layout from '../components/layout/layout';
 import AnnouncementData from '../data/news.json';
 import '../styles/layout/layout.scss';
-import '../styles/lib/primeflex.scss';
+import '../styles/lib/mantleflex.scss';
 import '../styles/prism.scss';
 
 export default function MyApp({ Component }) {
     const [dark, setDark] = useState(false);
     const [newsActive, setNewsActive] = useState(false);
     const announcement = useRef(AnnouncementData);
-    const storageKey = 'primeflex-news';
+    const storageKey = 'mantle-flex-news';
 
     const props = {
         dark: dark,

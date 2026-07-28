@@ -6,8 +6,11 @@ const nextConfig = {
     reactStrictMode: true,
     swcMinify: true,
     trailingSlash: true,
-    assetPrefix: isGitHubPages ? `${basePath}/` : '',
-    basePath,
+    ...(isGitHubPages
+        ? {
+              basePath
+          }
+        : {}),
     env: {
         NEXT_PUBLIC_BASE_PATH: basePath
     }

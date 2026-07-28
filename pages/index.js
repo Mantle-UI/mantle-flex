@@ -1,15 +1,9 @@
 import Head from 'next/head';
 import { classNames } from 'primereact/utils';
 import NewsSection from '../components/news/newssection';
-import AnimationsSection from './landing/animationssection';
-import BlocksSection from './landing/blockssection';
-import CardsSection from './landing/cardssection';
 import FooterSection from './landing/footersection';
 import HeaderSection from './landing/headersection';
 import HeroSection from './landing/herosection';
-import ResponsiveSection from './landing/responsivesection';
-import StyleSection from './landing/stylesection';
-import UsersSection from './landing/userssection';
 
 export default function Home(props) {
     const rootClassName = classNames('landing', { 'landing-light': !props.dark, 'landing-dark': props.dark, 'landing-news-active': props.newsActive });
@@ -21,34 +15,26 @@ export default function Home(props) {
     return (
         <div className={rootClassName}>
             <Head>
-                <title>PrimeFlex - Utility-First CSS Library</title>
+                <title>Mantle Flex - Utility-First CSS Library</title>
                 <meta charSet="UTF-8" />
-                <meta name="description" content="PrimeFlex is a utility-first CSS library." />
+                <meta name="description" content="Mantle Flex is a utility-first CSS library for responsive web interfaces." />
                 <meta name="robots" content="index, follow" />
                 <meta name="viewport" content="initial-scale=1, width=device-width" />
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:site" content="@primeflexcss" />
-                <meta name="twitter:title" content="PrimeFlex | Utility-First CSS Library" />
-                <meta name="twitter:description" content="PrimeFlex is a utility-first CSS library." />
+                <meta name="twitter:title" content="Mantle Flex | Utility-First CSS Library" />
+                <meta name="twitter:description" content="Mantle Flex is a utility-first CSS library for responsive web interfaces." />
                 <meta property="og:type" content="website"></meta>
-                <meta property="og:title" content="PrimeFlex - Utility-First CSS Library"></meta>
-                <meta property="og:url" content="https://primeflex.org"></meta>
-                <meta property="og:description" content="PrimeFlex is a utility-first CSS library." />
-                <meta property="og:image" content="https://www.primefaces.org/static/social/primereact-preview.jpg"></meta>
+                <meta property="og:title" content="Mantle Flex - Utility-First CSS Library"></meta>
+                <meta property="og:url" content="https://mantle-ui.github.io/mantle-flex/"></meta>
+                <meta property="og:description" content="Mantle Flex is a utility-first CSS library for responsive web interfaces." />
                 <meta property="og:ttl" content="604800"></meta>
-                <link rel="icon" href="https://www.primefaces.org/cdn/primeflex/images/favicon.ico" type="image/x-icon"></link>
+                <link rel="icon" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/favicon.svg`} type="image/svg+xml"></link>
             </Head>
             <div className="landing-intro">
                 {props.newsActive && <NewsSection announcement={props.announcement} onClose={props.onNewsClose} />}
                 <HeaderSection dark={props.dark} onToggleColorScheme={toggleColorScheme} />
-                <HeroSection dark={props.dark} />
-                <UsersSection dark={props.dark} />
+                <HeroSection />
             </div>
-            <CardsSection />
-            <AnimationsSection dark={props.dark} />
-            <StyleSection />
-            <ResponsiveSection dark={props.dark} />
-            <BlocksSection dark={props.dark} />
             <FooterSection dark={props.dark} />
         </div>
     );

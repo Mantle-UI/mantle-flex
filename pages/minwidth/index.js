@@ -28,8 +28,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Min Width - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Min Width defines the minimum width of an element." />
+                <title>Min Width - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Min Width defines the minimum width of an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

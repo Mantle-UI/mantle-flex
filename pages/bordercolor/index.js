@@ -28,8 +28,8 @@ const PositionPage = () => {
     return (
         <div>
             <Head>
-                <title>Border Color - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Border Color is a wide range of color palettes for the border of an element." />
+                <title>Border Color - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Border Color is a wide range of color palettes for the border of an element." />
             </Head>
             <div className="doc">
                 <div className="doc-main">

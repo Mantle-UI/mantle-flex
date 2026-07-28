@@ -46,8 +46,8 @@ const OverflowPage = () => {
     return (
         <div>
             <Head>
-                <title>Overflow - PrimeFlex</title>
-                <meta name="description" content="PrimeFlex Overflow controls the behavior when content exceeds the area of its container." />
+                <title>Overflow - Mantle Flex</title>
+                <meta name="description" content="Mantle Flex Overflow controls the behavior when content exceeds the area of its container." />
             </Head>
             <div className="doc">
                 <div className="doc-main">
