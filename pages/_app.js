@@ -1,5 +1,5 @@
 import '@docsearch/css';
-import '@mantle-ui/icons/primeicons.css';
+import '@mantle-ui/icons/mantleicons.css';
 import { DomHandler } from '@mantle-ui/react/utils';
 import { useEffect, useRef, useState } from 'react';
 import Layout from '../components/layout/layout';
